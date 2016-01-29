@@ -1,0 +1,63 @@
+Cats 9 cats
+ - Each cat needs sleeping, talking face - smirk/smug looking
+ - Basic animation of tails wagging
+ - Random breeds and colours
+ -  
+
+Town
+- Church
+- hair dresser
+- generic houses
+
+Beach
+ - basic sea animation
+ - basic bird animation
+ - Palm trees - 2/3 types
+
+Forest
+ - Oak trees - 2/3 types
+ - bushes
+
+Items
+- Town -
+	- Pet mouse - church
+	- Scissors
+	- Holy Water
+- Forest -
+	- Flowers
+	- Four leaf clover
+- Beach -
+	- Crab (living) - Take shell from hermit crab
+	- skull
+- Misc -
+	- blood of a virgin (vial of blood, ambiguous)
+
+Sound
+
+	General cat sounds, dialog filler, thanks, goodbye, welcome
+	Footsteps
+		Background music to all biome
+	Town more upbeat
+	Forest slightly sp00ky
+	Beach can be calm
+	House general
+
+ Beach-
+ 	sea sounds
+ 	sea gulls
+ 	waves
+ Forest-
+ 	Birds
+ 	Ruslting
+ 	Branches stuff
+ 	Wind
+ 	Stepping on twigs
+ Town-
+ 	general chatter / incomprehensible
+ 	market sounds
+ 	shop bells
+ House-
+ 	Clock ticking
+
+
+
