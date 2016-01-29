@@ -1,0 +1,13 @@
+Cats 9 cats
+ - Each cat needs sleeping, talking face - smirk/smug looking
+ - Basic animation of tails wagging
+ - Random breeds and colours
+ -  
+
+Town
+- Church
+- hair dresser
+
+Beech
+ - basic sea animation
+ - basic bird animation

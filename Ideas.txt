@@ -1,0 +1,51 @@
+Collection game - fetch quests
+Animal crossing themed
+
+Cats give you quest
+- cats require items around the town to stay happy
+- turns out they're summoning a demon
+- start simple, slowly getting more suscipous
+- make cat's requests relevant
+- has to be done before the day ends
+
+Input -
+	- Walking through manually
+	- One action button
+
+Starts cute and colouerful, closer to evening it gets darker
+
+Colours get darker as the game goes on - town changes
+
+Choice to stop the cat's early on, if you're aware enough
+
+People around the town - time dependant
+
+Make cats really cute
+
+Emotions
+- surprised at the end - like can your pet
+- bond with the cats
+- major twists br0
+
+- Town
+- Beach
+- ForestBiomes
+
+
+Items
+- Town -
+	- Pet mouse - church
+	- Skull
+	- Scissors
+	- Holy Water
+- Forest -
+	- Flowers
+	- Four leaf clover
+- Beach -
+	- Crab (living) - Take shell from hermit crab
+- In House -
+	- blood of a virgin
+
+Easter eggs
+
+Last time you go out, you see all the wrongs you've done
