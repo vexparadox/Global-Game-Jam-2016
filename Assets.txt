@@ -36,7 +36,11 @@ Sound
 
 	General cat sounds, dialog filler, thanks, goodbye, welcome
 	Footsteps
-	Background music to all terrains
+		Background music to all biome
+	Town more upbeat
+	Forest slightly sp00ky
+	Beach can be calm
+	House general
 
  Beach-
  	sea sounds
@@ -48,6 +52,12 @@ Sound
  	Branches stuff
  	Wind
  	Stepping on twigs
+ Town-
+ 	general chatter / incomprehensible
+ 	market sounds
+ 	shop bells
+ House-
+ 	Clock ticking
 
 
 
