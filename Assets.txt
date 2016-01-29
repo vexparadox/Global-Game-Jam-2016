@@ -7,7 +7,47 @@ Cats 9 cats
 Town
 - Church
 - hair dresser
+- generic houses
 
-Beech
+Beach
  - basic sea animation
  - basic bird animation
+ - Palm trees - 2/3 types
+
+Forest
+ - Oak trees - 2/3 types
+ - bushes
+
+Items
+- Town -
+	- Pet mouse - church
+	- Scissors
+	- Holy Water
+- Forest -
+	- Flowers
+	- Four leaf clover
+- Beach -
+	- Crab (living) - Take shell from hermit crab
+	- skull
+- Misc -
+	- blood of a virgin (vial of blood, ambiguous)
+
+Sound
+
+	General cat sounds, dialog filler, thanks, goodbye, welcome
+	Footsteps
+	Background music to all terrains
+
+ Beach-
+ 	sea sounds
+ 	sea gulls
+ 	waves
+ Forest-
+ 	Birds
+ 	Ruslting
+ 	Branches stuff
+ 	Wind
+ 	Stepping on twigs
+
+
+
