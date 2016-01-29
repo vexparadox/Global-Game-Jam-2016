@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[RequireComponent (typeof (Rigidbody2D))]
 public class MoveScript : MonoBehaviour {
 
-	[SerializeField] public float speed;
-	[SerializeField] public int numberOfCasts;
+	[SerializeField] public float speed = 1;
+	[SerializeField] public int numberOfCasts = 5;
 
 	[HideInInspector] new public Rigidbody2D rigidBody2D;
 
