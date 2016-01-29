@@ -1,0 +1,100 @@
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Library/
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+obj/
+*.svd
+*.userprefs
+/*.csproj
+*.pidb
+*.suo
+/*.sln
+*.user
+*.unityproj
+*.booproj
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.dbLast login: Fri Jan 29 17:59:10 on ttys001
+cd /Users/williammeaton/Documents/GitHub/GGsmiths; clear; pwd
+Williams-MBP-2:~ williammeaton$ cd /Users/williammeaton/Documents/GitHub/GGsmiths; clear; pwd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/Users/williammeaton/Documents/GitHub/GGsmiths
+Williams-MBP-2:GGsmiths williammeaton$ ls -i
+21497804 FPS		24052101 README.md
+Williams-MBP-2:GGsmiths williammeaton$ ls -ah
+.		.DS_Store	FPS
+..		.git		README.md
+Williams-MBP-2:GGsmiths williammeaton$ cd FPS
+Williams-MBP-2:FPS williammeaton$ ls
+Assembly-CSharp-Editor-vs.csproj	Assets
+Assembly-CSharp-Editor.csproj		FPS-csharp.sln
+Assembly-CSharp-firstpass-vs.csproj	FPS.sln
+Assembly-CSharp-firstpass.csproj	FPS.userprefs
+Assembly-CSharp-vs.csproj		Library
+Assembly-CSharp.csproj			ProjectSettings
+Williams-MBP-2:FPS williammeaton$ ls -a
+.					Assembly-CSharp.csproj
+..					Assets
+.gitignore				FPS-csharp.sln
+Assembly-CSharp-Editor-vs.csproj	FPS.sln
+Assembly-CSharp-Editor.csproj		FPS.userprefs
+Assembly-CSharp-firstpass-vs.csproj	Library
+Assembly-CSharp-firstpass.csproj	ProjectSettings
+Assembly-CSharp-vs.csproj
+Williams-MBP-2:FPS williammeaton$ nano .gitignore 
+
+  GNU nano 2.0.6              File: .gitignore                                  
+
+ExportedObj/
+obj/
+*.svd
+*.userprefs
+/*.csproj
+*.pidb
+*.suo
+/*.sln
+*.user
+*.unityproj
+*.booproj
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+
