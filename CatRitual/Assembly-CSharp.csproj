@@ -45,11 +45,21 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Audio\SFX.cs" />
      <Compile Include="Assets\Scripts\Cats\DailyThinker.cs" />
+     <Compile Include="Assets\Scripts\Graphics\SetUVToWorldSpace.cs" />
+     <Compile Include="Assets\Scripts\Items\ItemChecker.cs" />
+     <Compile Include="Assets\Scripts\Items\ItemManager.cs" />
+     <Compile Include="Assets\Scripts\Items\ItemPickup.cs" />
+     <Compile Include="Assets\Scripts\LevelGenerators\AreaGenerator.cs" />
+     <Compile Include="Assets\Scripts\Main\AIScript.cs" />
      <Compile Include="Assets\Scripts\Main\CameraScript.cs" />
      <Compile Include="Assets\Scripts\Main\GUI\BubbleManager.cs" />
      <Compile Include="Assets\Scripts\Main\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Main\GameMath.cs" />
      <Compile Include="Assets\Scripts\Main\MoveScript.cs" />
+     <Compile Include="Assets\Scripts\Main\Player\AnimationController.cs" />
+     <Compile Include="Assets\Scripts\Main\Player\PlayerControlScript.cs" />
      <Compile Include="Assets\Scripts\ZoneChange.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>

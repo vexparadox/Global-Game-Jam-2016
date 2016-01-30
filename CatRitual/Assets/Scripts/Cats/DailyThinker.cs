@@ -24,7 +24,7 @@ namespace Game.Cat {
 		}
 		void OnDayChange () {
 			if (GameManager.day < dailyThoughts.Count) {
-				spriteRenderer.sprite = dailyThoughts[GameManager.day].todaysThought;
+				bubbleManager.sprite = dailyThoughts[GameManager.day].todaysThought;
 			}
 		}
 	}

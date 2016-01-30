@@ -13,6 +13,14 @@ public class CameraScript : MonoBehaviour {
 	}
 
 	[SerializeField] public Transform player;
+
+	void Start () {
+		GameManager.AddAction (OnDayChange);
+	}
+	void OnDayChange () {
+		if (onEnterNewScreen != null)
+			onEnterNewScreen.Invoke ();
+	}
 	void Update () {
 		if (!player) 
 			return;

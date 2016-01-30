@@ -14,5 +14,13 @@ public class GameManager : MonoBehaviour {
 			onDayUpdate = new UnityEvent ();
 		onDayUpdate.AddListener (action);
 	}
-	
+	public void Update () {
+		if (Input.GetKeyDown (KeyCode.Space)) {
+			NextDay ();
+		}
+	}
+	public void NextDay () {
+		day++;
+		onDayUpdate.Invoke ();
+	}
 }
