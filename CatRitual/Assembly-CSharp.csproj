@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\Cats\CatScript.cs" />
      <Compile Include="Assets\Scripts\Cats\DailyThinker.cs" />
      <Compile Include="Assets\Scripts\Graphics\SetUVToWorldSpace.cs" />
+     <Compile Include="Assets\Scripts\Graphics\zPosSetter.cs" />
      <Compile Include="Assets\Scripts\Items\ItemChecker.cs" />
      <Compile Include="Assets\Scripts\Items\ItemManager.cs" />
      <Compile Include="Assets\Scripts\Items\ItemPickup.cs" />
