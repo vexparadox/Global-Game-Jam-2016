@@ -9,8 +9,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 475788}
   - 212: {fileID: 21252714}
-  - 114: {fileID: 11486620}
   - 61: {fileID: 6162762}
+  - 114: {fileID: 11416162}
   m_Layer: 0
   m_Name: cat
   m_TagString: Untagged
@@ -25,7 +25,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 155594}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.35000002, y: 3.83999991, z: 0}
+  m_LocalPosition: {x: -1.66999996, y: 3.1500001, z: 0}
   m_LocalScale: {x: .84053427, y: .84053421, z: .84053421}
   m_Children: []
   m_Father: {fileID: 0}
@@ -43,7 +43,7 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 2.74999976, y: 2.04999995}
---- !u!114 &11486620
+--- !u!114 &11416162
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -51,12 +51,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 155594}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37d3f4fedf45044f4bdce4ed161e7b74, type: 3}
+  m_Script: {fileID: 11500000, guid: fa6e7b53061154179ae9554f7a7900c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dailyThoughts:
   - todaysThought: {fileID: 21300000, guid: c0b3761c898d545f6ae6cc6d2c8e7016, type: 3}
-  - todaysThought: {fileID: 21300000, guid: 64759ec93659d4da99f580c692d4a755, type: 3}
+  - todaysThought: {fileID: 21300000, guid: d1eccdcd1c7ed4241b76973a647a35e2, type: 3}
   spriteRenderer: {fileID: 0}
   bubbleManager: {fileID: 0}
 --- !u!212 &21252714
