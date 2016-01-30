@@ -9,7 +9,9 @@ public class ZoneChange : MonoBehaviour {
 			return;
 		}
 		cameraToChange.transform.position = changeLocation.gameObject.transform.position;
-		Vector3 v = new Vector3 (cameraToChange.transform.position.x, cameraToChange.transform.position.y, cameraToChange.transform.position.z - 10);
+		Vector3 v = new Vector3 (cameraToChange.transform.position.x, cameraToChange.transform.position.y, cameraToChange.transform.position.z - 12.3f);
 		cameraToChange.transform.position = v;
+		other.gameObject.transform.position = changeLocation.gameObject.transform.position;
+		CameraScript.isOnMainMap = !CameraScript.isOnMainMap;
 	}
 }

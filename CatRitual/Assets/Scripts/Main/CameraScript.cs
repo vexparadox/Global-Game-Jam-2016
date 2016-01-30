@@ -4,7 +4,7 @@ using System.Collections;
 
 public class CameraScript : MonoBehaviour {
 	public static UnityEvent onEnterNewScreen;
-
+	public static bool isOnMainMap = true;
 	public static void addOnEnterNewScreen (UnityAction action) {
 		if (onEnterNewScreen == null) {
 			onEnterNewScreen = new UnityEvent ();
@@ -22,14 +22,17 @@ public class CameraScript : MonoBehaviour {
 			onEnterNewScreen.Invoke ();
 	}
 	void Update () {
+		if (!isOnMainMap) {
+			return;
+		}
 		if (!player) 
 			return;
 		float width = Camera.main.orthographicSize / (float)Screen.height * Screen.width;
 		Vector2 delta = player.transform.position - transform.position;
 
 		Vector3 newPos = transform.position;
+		
 		bool changed = false;
-
 		if ((width - Mathf.Abs (delta.x)) < 0) {
 			newPos.x += width * (delta.x < 0 ? -1 : 1) * 2;
 			changed = true;
