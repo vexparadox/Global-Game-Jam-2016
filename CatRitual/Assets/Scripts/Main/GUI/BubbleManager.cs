@@ -3,7 +3,7 @@ using System.Collections;
 namespace Game.Bubble {
 	public class BubbleManager : MonoBehaviour {
 		
-		public const float zPos = -4f;
+		public const float zPos = -10f;
 
 		[SerializeField] public float timeBetweenBubbles = 0.4f;
 		[HideInInspector] public int indexOfCurrentBubble = 0;

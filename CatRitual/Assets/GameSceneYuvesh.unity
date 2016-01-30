@@ -65,6 +65,7 @@ LightmapSettings:
     m_TextureCompression: 1
     m_FinalGather: 0
     m_FinalGatherRayCount: 1024
+    m_ReflectionCompression: 2
   m_LightmapSnapshot: {fileID: 0}
   m_RuntimeCPUUsage: 25
 --- !u!196 &4
@@ -84,9 +85,6 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
---- !u!127 &5
-LevelGameManager:
-  m_ObjectHideFlags: 0
 --- !u!1 &9078212
 GameObject:
   m_ObjectHideFlags: 0
@@ -6970,7 +6968,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 475788, guid: 6fbfd7dd3e1c54ceabcd1102b591569b, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 155594, guid: 6fbfd7dd3e1c54ceabcd1102b591569b, type: 2}
       propertyPath: m_Name
@@ -9329,7 +9327,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d1eccdcd1c7ed4241b76973a647a35e2, type: 3}
+  m_Sprite: {fileID: 21300004, guid: e4a5230c4b25144338a464dea8b04013, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &522342819
 MonoBehaviour:
@@ -9344,9 +9342,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveScript: {fileID: 0}
   spriteRenderer: {fileID: 0}
-  up: {fileID: 21300002, guid: d1eccdcd1c7ed4241b76973a647a35e2, type: 3}
-  left: {fileID: 21300004, guid: d1eccdcd1c7ed4241b76973a647a35e2, type: 3}
-  down: {fileID: 21300000, guid: d1eccdcd1c7ed4241b76973a647a35e2, type: 3}
+  up: {fileID: 21300002, guid: e4a5230c4b25144338a464dea8b04013, type: 3}
+  left: {fileID: 21300000, guid: e4a5230c4b25144338a464dea8b04013, type: 3}
+  down: {fileID: 21300004, guid: e4a5230c4b25144338a464dea8b04013, type: 3}
 --- !u!1 &525985059
 GameObject:
   m_ObjectHideFlags: 0
@@ -17961,6 +17959,7 @@ AudioSource:
   m_Pitch: 1
   Loop: 1
   Mute: 0
+  Spatialize: 0
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
@@ -29477,7 +29476,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 475788, guid: 6fbfd7dd3e1c54ceabcd1102b591569b, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 155594, guid: 6fbfd7dd3e1c54ceabcd1102b591569b, type: 2}
       propertyPath: m_Name
@@ -33181,6 +33180,7 @@ Camera:
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
+  m_TargetEye: 3
   m_HDR: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
