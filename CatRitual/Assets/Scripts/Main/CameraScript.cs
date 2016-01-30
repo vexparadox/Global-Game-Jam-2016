@@ -1,10 +1,18 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 using System.Collections;
 
 public class CameraScript : MonoBehaviour {
+	public static UnityEvent onEnterNewScreen;
+
+	public static void addOnEnterNewScreen (UnityAction action) {
+		if (onEnterNewScreen == null) {
+			onEnterNewScreen = new UnityEvent ();
+		}
+		onEnterNewScreen.AddListener (action);
+	}
 
 	[SerializeField] public Transform player;
-
 	void Update () {
 		if (!player) 
 			return;
@@ -12,13 +20,22 @@ public class CameraScript : MonoBehaviour {
 		Vector2 delta = player.transform.position - transform.position;
 
 		Vector3 newPos = transform.position;
-		bool changed = true;
+		bool changed = false;
 
-		if ((width - Mathf.Abs (delta.x)) < 0)
+		if ((width - Mathf.Abs (delta.x)) < 0) {
 			newPos.x += width * (delta.x < 0 ? -1 : 1) * 2;
-		if ((Camera.main.orthographicSize - Mathf.Abs (delta.y)) < 0)
+			changed = true;
+		}
+		if ((Camera.main.orthographicSize - Mathf.Abs (delta.y)) < 0) {
 			newPos.y += Camera.main.orthographicSize * 2 * (delta.y < 0 ? -1 : 1);
-
-		transform.position = newPos;
+			changed = true;
+		}
+		if (changed) {
+			transform.position = newPos;
+			if (onEnterNewScreen != null)
+				onEnterNewScreen.Invoke ();
+		}
 	}
+
+
 }
