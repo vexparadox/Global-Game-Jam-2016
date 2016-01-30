@@ -10,6 +10,7 @@ public class PlayerControlScript : MonoBehaviour {
 	}
 
 	void FixedUpdate () {
+		Debug.Log (new Vector2 (Input.GetAxis ("Horizontal"), Input.GetAxis ("Vertical")));
 		moveScript.Move (new Vector2 (Input.GetAxis ("Horizontal"), Input.GetAxis ("Vertical")));
 	}
 }
