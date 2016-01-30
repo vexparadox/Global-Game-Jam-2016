@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\Audio\SFX.cs" />
      <Compile Include="Assets\Scripts\Cats\CatScript.cs" />
      <Compile Include="Assets\Scripts\Cats\DailyThinker.cs" />
+     <Compile Include="Assets\Scripts\DoorUVsSetter.cs" />
      <Compile Include="Assets\Scripts\Graphics\SetUVToWorldSpace.cs" />
      <Compile Include="Assets\Scripts\Graphics\zPosSetter.cs" />
      <Compile Include="Assets\Scripts\Items\ItemChecker.cs" />
