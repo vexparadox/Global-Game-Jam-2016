@@ -18,8 +18,6 @@ public class ZoneChange : MonoBehaviour {
 
 		cameraToChange.transform.position = pos;
 
-
-
 		deltaPoint = (Vector2)other.transform.position - centerBotPosition;
 		pos = changeLocation.transform.position + (Vector3)deltaPoint;
 
