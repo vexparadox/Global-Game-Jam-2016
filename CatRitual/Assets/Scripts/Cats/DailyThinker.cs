@@ -14,6 +14,7 @@ namespace Game.Cat {
 
 		[SerializeField] public List <DailyThought> dailyThoughts;
 		[SerializeField] public Vector3 offset;
+		[SerializeField] public Vector3 eulerRotation;
 
 		[HideInInspector] public SpriteRenderer spriteRenderer;
 		[HideInInspector] public BubbleManager bubbleManager;
@@ -22,6 +23,7 @@ namespace Game.Cat {
 			GameManager.AddAction (OnDayChange);
 			bubbleManager = BubbleManager.NewBubble (transform.position + offset, dailyThoughts [GameManager.day].todaysThought);
 			bubbleManager.transform.SetParent (transform);
+			bubbleManager.transform.eulerAngles = eulerRotation;
 		}
 		void OnDayChange () {
 			if (GameManager.day < dailyThoughts.Count) {

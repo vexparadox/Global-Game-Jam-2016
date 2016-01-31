@@ -1,0 +1,287 @@
+fileFormatVersion: 2
+guid: 836ae89b75cf14e64a7a8275f897ab40
+timeCreated: 1454247480
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: background 3_0
+    21300002: background 3_1
+    21300004: background 3_2
+    21300006: background 3_3
+    21300008: background 3_4
+    21300010: background 3_5
+    21300012: background 3_6
+    21300014: background 3_7
+    21300016: background 3_8
+    21300018: background 3_9
+    21300020: background 3_10
+    21300022: background 3_11
+    21300024: background 3_12
+    21300026: background 3_13
+    21300028: background 3_14
+    21300030: background 3_15
+    21300032: background 3_16
+    21300034: background 3_17
+    21300036: background 3_18
+    21300038: background 3_19
+    21300040: background 3_20
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: background 3_0
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1261
+        width: 353
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: background 3_1
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1270
+        width: 305
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: background 3_2
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1387
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: background 3_3
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 509
+        width: 389
+        height: 991
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: background 3_4
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 1383
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: background 3_5
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1060
+        width: 311
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: background 3_6
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1142
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: background 3_7
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 568
+        width: 382
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: background 3_8
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 762
+        width: 261
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: background 3_9
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 530
+        width: 245
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: background 3_10
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 201
+        width: 575
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: background 3_11
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 503
+        width: 219
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: background 3_12
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 475
+        width: 130
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: background 3_13
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 477
+        width: 94
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: background 3_14
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 360
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: background 3_15
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 337
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: background 3_16
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 337
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: background 3_17
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 332
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: background 3_18
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 68
+        width: 886
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: background 3_19
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 151
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: background 3_20
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 35
+        width: 8
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

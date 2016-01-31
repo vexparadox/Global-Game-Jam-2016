@@ -10,6 +10,7 @@ GameObject:
   - 4: {fileID: 471350}
   - 212: {fileID: 21280966}
   - 61: {fileID: 6184288}
+  - 114: {fileID: 11456362}
   m_Layer: 0
   m_Name: Grass
   m_TagString: Untagged
@@ -42,6 +43,17 @@ BoxCollider2D:
   m_Offset: {x: .00922751427, y: .858155131}
   serializedVersion: 2
   m_Size: {x: 2.90454531, y: 1.74090886}
+--- !u!114 &11456362
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1a0a6edd51e43589a2f865b432042d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &21280966
 SpriteRenderer:
   m_ObjectHideFlags: 1
