@@ -11,7 +11,7 @@ public class MoveScript : MonoBehaviour {
 	[SerializeField] public bool footTrail;
 
 
-	[HideInInspector] new public Rigidbody2D rigidBody2D;
+	[HideInInspector] public Rigidbody2D rigidBody2D;
 	[HideInInspector] public Vector2 lastMovement;
 
 	[HideInInspector] public float totalWalk;

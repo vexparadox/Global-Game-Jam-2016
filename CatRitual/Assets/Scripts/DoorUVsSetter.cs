@@ -5,7 +5,7 @@ using System.Collections;
 [RequireComponent (typeof (ZoneChange))]
 public class DoorUVsSetter : MonoBehaviour {
 	public MeshFilter targetFilter;
-	new public MeshFilter meshFilter;
+	public MeshFilter meshFilter;
 
 	void Start () {
 		MeshFilter meshFilter = GetComponent<MeshFilter> ();
@@ -26,12 +26,8 @@ public class DoorUVsSetter : MonoBehaviour {
 
 		Vector2 bottomCenterPosition = new Vector2 (bound.center.x, bound.center.y - bound.extents.y);
 
-		Mesh targetMesh  = targetFilter.sharedMesh;
 		Mesh thisMesh	 = GetComponent <MeshFilter> ().sharedMesh;
-
 		Vector3 [] verts = thisMesh.vertices;
-		Vector3 [] targetVerts = targetMesh.vertices;
-
 		Vector2 [] uvs   = new Vector2[verts.Length];
 
 		for (int i = 0; i < verts.Length; i++) {

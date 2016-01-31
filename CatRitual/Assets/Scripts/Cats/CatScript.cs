@@ -13,7 +13,7 @@ namespace Game.Cat {
 
 		[SerializeField] public List <CatDay> catDays;
 
-		[HideInInspector] new public SpriteRenderer spriteRenderer;
+		[HideInInspector] public SpriteRenderer spriteRenderer;
 		void Start () {
 			GameManager.AddAction (OnDayChange);
 		}

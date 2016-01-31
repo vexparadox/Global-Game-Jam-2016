@@ -14,7 +14,7 @@ namespace Game.Cat {
 
 		[SerializeField] public List <DailyThought> dailyThoughts;
 
-		[HideInInspector] new public SpriteRenderer spriteRenderer;
+		[HideInInspector] public SpriteRenderer spriteRenderer;
 		[HideInInspector] public BubbleManager bubbleManager;
 
 		void Start () {

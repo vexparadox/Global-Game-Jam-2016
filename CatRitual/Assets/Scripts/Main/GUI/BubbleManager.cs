@@ -8,7 +8,7 @@ namespace Game.Bubble {
 		[SerializeField] public float timeBetweenBubbles = 0.4f;
 		[HideInInspector] public int indexOfCurrentBubble = 0;
 		[HideInInspector] public float timeOfLastBubbleCreation;
-		[HideInInspector] new public SpriteRenderer spriteRenderer;
+		[HideInInspector] public SpriteRenderer spriteRenderer;
 
 		public Sprite sprite {
 			get {

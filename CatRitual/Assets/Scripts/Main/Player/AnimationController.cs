@@ -4,8 +4,8 @@ using System.Collections;
 [RequireComponent (typeof (SpriteRenderer))]
 public class AnimationController : MonoBehaviour {
 
-	[HideInInspector] new public MoveScript moveScript;
-	[HideInInspector] new public SpriteRenderer spriteRenderer;
+	[HideInInspector] public MoveScript moveScript;
+	[HideInInspector] public SpriteRenderer spriteRenderer;
 
 	[SerializeField] public Sprite up	;
 	[SerializeField] public Sprite left	;
