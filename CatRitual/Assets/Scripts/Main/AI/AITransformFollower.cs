@@ -13,9 +13,10 @@ public class AITransformFollower : MonoBehaviour {
 		moveScript = GetComponent<MoveScript> ();
 	}
 	void FixedUpdate () {
-		if (followTransform == null)
+		if (followTransform == null) {
+			moveScript.Move (Vector2.zero);
 			onTargetMissing.Invoke ();
-		else
+		} else
 			moveScript.Move ((followTransform.transform.position - transform.position).normalized);
 	}
 }

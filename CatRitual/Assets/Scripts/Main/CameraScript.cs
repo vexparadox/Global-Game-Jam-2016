@@ -17,6 +17,7 @@ public class CameraScript : MonoBehaviour {
 
 	void Start () {
 		GameManager.AddAction (OnDayChange);
+		onEnterNewScreen.Invoke ();
 	}
 	void OnDayChange () {
 		if (onEnterNewScreen != null)

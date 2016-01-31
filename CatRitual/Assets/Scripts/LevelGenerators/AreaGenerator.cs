@@ -10,7 +10,7 @@ public class AreaGenerator
 	public int numberOfItems = 50;
 	public float zPos = 4;
 
-	public Sprite [] sprites;
+	public GameObject [] randomList;
 	public Vector2 extents = new Vector2 (15,15);
 
 	void Update () {
@@ -22,10 +22,8 @@ public class AreaGenerator
 			Random.seed = seed;
 			for (int i = 0; i < numberOfItems; i++) {
 				Vector3 localPosition = new Vector3 (Random.Range (-extents.x,extents.x), Random.Range (-extents.y,extents.y), zPos);
-				SpriteRenderer spriteRend = new GameObject ("inst").AddComponent<SpriteRenderer> ();
-				spriteRend.transform.SetParent (transform);
-				spriteRend.transform.localPosition = localPosition;
-				spriteRend.sprite =	sprites[Random.Range (0,sprites.Length)];
+				GameObject objectCreated = Instantiate (randomList[Random.Range (0,randomList.Length)], transform.TransformPoint (localPosition), Quaternion.identity) as GameObject;
+				objectCreated.transform.SetParent (transform);
 			}
 		}
 	}

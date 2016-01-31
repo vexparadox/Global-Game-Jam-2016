@@ -1,0 +1,100 @@
+fileFormatVersion: 2
+guid: fdec106991980458bbd888874882fc3b
+timeCreated: 1454237784
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: boom 2 Seperated_0
+    21300002: boom 2 Seperated_1
+    21300004: boom 2 Seperated_2
+    21300006: boom 2 Seperated_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 200
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: boom 2 Seperated_0
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 932
+        width: 747
+        height: 1231
+      alignment: 9
+      pivot: {x: .5, y: -.00141942687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boom 2 Seperated_1
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 897
+        width: 1184
+        height: 1269
+      alignment: 9
+      pivot: {x: .499999911, y: .00178954692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boom 2 Seperated_2
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 888
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boom 2 Seperated_3
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 431
+        width: 780
+        height: 430
+      alignment: 9
+      pivot: {x: .50384146, y: -.00171366846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
