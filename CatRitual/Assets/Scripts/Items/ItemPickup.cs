@@ -12,7 +12,7 @@ namespace Game.Items {
 		}
 	}
 	public enum Item {
-		Tuna, Rat, Scissors, Flower, FoursidedFlour, Crab, Skull, Length
+		Tuna, Rat, Scissors, Flower, FoursidedFlour, Crab, Skull, HolyWater ,Length
 	}; 
 	public class ItemPickup : MonoBehaviour {
 		[SerializeField]  public Item itemType;

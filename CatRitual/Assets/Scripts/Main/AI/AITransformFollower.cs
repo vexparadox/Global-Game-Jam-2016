@@ -7,6 +7,8 @@ public class AITransformFollower : MonoBehaviour {
 
 	[SerializeField] public Transform followTransform;
 	[SerializeField] public UnityEvent onTargetMissing;
+	[SerializeField] public Transform player;
+
 	[HideInInspector] public MoveScript moveScript;
 
 	void Awake () {
@@ -15,8 +17,10 @@ public class AITransformFollower : MonoBehaviour {
 	void FixedUpdate () {
 		if (followTransform == null) {
 			moveScript.Move (Vector2.zero);
+			followTransform = player;
 			onTargetMissing.Invoke ();
-		} else
+		} else {
 			moveScript.Move ((followTransform.transform.position - transform.position).normalized);
+		}
 	}
 }

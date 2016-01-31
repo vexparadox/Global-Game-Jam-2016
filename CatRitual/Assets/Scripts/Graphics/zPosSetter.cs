@@ -9,10 +9,10 @@ public class zPosSetter : MonoBehaviour {
 	public const float maxYPos = 150f;
 	public const float minYPos =-150f;
 
-
+	[SerializeField] public float yOffset;
 	void LateUpdate () {
 		Vector3 pos = transform.position;
-		pos.z = (maxZPos - minZPos) * ((maxYPos - pos.y) / (minYPos - maxYPos));
+		pos.z = (maxZPos - minZPos) * ((maxYPos - pos.y + yOffset) / (minYPos - maxYPos));
 		transform.position = pos;
 	}
 }
