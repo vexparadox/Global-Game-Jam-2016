@@ -10,7 +10,9 @@ public class MoveScript : MonoBehaviour {
 	[SerializeField] public float distanceForFootstep = 1;
 	[SerializeField] public bool footTrail;
 
+	[HideInInspector] public bool leftFoot;
 
+	[HideInInspector] public const float footStepZPos = 10; 
 	[HideInInspector] public Rigidbody2D rigidBody2D;
 	[HideInInspector] public Vector2 lastMovement;
 
@@ -31,7 +33,19 @@ public class MoveScript : MonoBehaviour {
 
 
 		if (footTrail && totalWalk > distanceForFootstep) {
-			GameObject foot = Instantiate (Resources.Load <GameObject> ("Prefabs/FootStep"), transform.position + Vector3.forward, Quaternion.identity) as GameObject;
+
+			string footString = leftFoot ? "Prefabs/FootStepL" : "Prefabs/FootStepR";
+
+			Vector3 pos = transform.position;
+			if (Mathf.Abs (delta.y) > Mathf.Abs (delta.x)) {
+				pos.x += leftFoot ? 0.3f : -0.3f;
+			}
+
+			leftFoot = !leftFoot;
+
+			pos.z = footStepZPos;
+
+			GameObject foot = Instantiate (Resources.Load <GameObject> (footString), pos, Quaternion.identity) as GameObject;
 			SFX.PlayFootStep ();
 			Vector3 euler = foot.transform.eulerAngles;
 			euler.z =-GameMath.Angle (delta);

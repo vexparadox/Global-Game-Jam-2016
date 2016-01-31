@@ -55,7 +55,9 @@
      <Compile Include="Assets\Scripts\Items\ItemManager.cs" />
      <Compile Include="Assets\Scripts\Items\ItemPickup.cs" />
      <Compile Include="Assets\Scripts\LevelGenerators\AreaGenerator.cs" />
-     <Compile Include="Assets\Scripts\Main\AIScript.cs" />
+     <Compile Include="Assets\Scripts\LevelGenerators\RowSpawn.cs" />
+     <Compile Include="Assets\Scripts\Main\AI\AIScript.cs" />
+     <Compile Include="Assets\Scripts\Main\AI\AITransformFollower.cs" />
      <Compile Include="Assets\Scripts\Main\CameraScript.cs" />
      <Compile Include="Assets\Scripts\Main\GUI\BubbleManager.cs" />
      <Compile Include="Assets\Scripts\Main\GameManager.cs" />

@@ -12,8 +12,8 @@ namespace Game.Items {
 		}
 	}
 	public enum Item {
-		Bomb, Length
-	};
+		Tuna, Rat, Scissors, Flower, FoursidedFlour, Crab, Skull, Length
+	}; 
 	public class ItemPickup : MonoBehaviour {
 		[SerializeField]  public Item itemType;
 		[HideInInspector] public UnityAction itemPickedup;
@@ -23,9 +23,10 @@ namespace Game.Items {
 		}
 	
 		void OnTriggerEnter2D (Collider2D coll) {
-			coll.CompareTag ("Player");
-			ItemManager.ItemPickedup (itemType);
-			Destroy (gameObject);
+			if (coll.CompareTag ("Player")) {
+				ItemManager.ItemPickedup (itemType);
+				Destroy (gameObject);
+			}
 		}
 	}
 }

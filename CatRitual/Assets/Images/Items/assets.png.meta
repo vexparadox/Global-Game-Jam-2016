@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e6061edac0fee4b0e8c19cdc88f6801b
-timeCreated: 1454197767
+timeCreated: 1454202222
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -80,7 +80,7 @@ TextureImporter:
         width: 534
         height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: assets_1
       rect:
@@ -110,7 +110,7 @@ TextureImporter:
         width: 26
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: assets_4
       rect:
@@ -120,7 +120,7 @@ TextureImporter:
         width: 9
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: assets_5
       rect:
@@ -140,7 +140,7 @@ TextureImporter:
         width: 20
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: assets_7
       rect:
@@ -150,7 +150,7 @@ TextureImporter:
         width: 17
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: assets_8
       rect:
@@ -160,7 +160,7 @@ TextureImporter:
         width: 7
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: assets_9
       rect:
@@ -170,7 +170,7 @@ TextureImporter:
         width: 13
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: assets_10
       rect:
@@ -190,7 +190,7 @@ TextureImporter:
         width: 210
         height: 328
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: assets_12
       rect:
@@ -200,7 +200,7 @@ TextureImporter:
         width: 226
         height: 356
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: assets_13
       rect:
@@ -210,7 +210,7 @@ TextureImporter:
         width: 258
         height: 523
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: assets_14
       rect:
@@ -220,7 +220,7 @@ TextureImporter:
         width: 271
         height: 534
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: assets_15
       rect:
@@ -230,7 +230,7 @@ TextureImporter:
         width: 289
         height: 333
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: assets_16
       rect:
@@ -240,7 +240,7 @@ TextureImporter:
         width: 324
         height: 337
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: assets_17
       rect:
@@ -250,47 +250,47 @@ TextureImporter:
         width: 462
         height: 317
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: assets_18
       rect:
         serializedVersion: 2
         x: 1545
-        y: 187
+        y: 68
         width: 145
-        height: 225
+        height: 346
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: assets_19
       rect:
         serializedVersion: 2
         x: 1783
-        y: 187
+        y: 70
         width: 142
-        height: 225
+        height: 342
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: assets_20
       rect:
         serializedVersion: 2
-        x: 1550
-        y: 70
+        x: 1990
+        y: 939
         width: 110
         height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: assets_21
       rect:
         serializedVersion: 2
-        x: 1810
-        y: 70
+        x: 2000
+        y: 950
         width: 100
         height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
